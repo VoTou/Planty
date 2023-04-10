@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.2.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-03-29 05:30:49+0000\n"
+"PO-Revision-Date: 2023-04-01 09:53:57+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -246,7 +246,7 @@ msgstr "Concentrez-vous sur l’écriture avec le mode sans distraction"
 
 #: wp-admin/about.php:130
 msgid "Openverse&#8217;s library catalogs over 600 million free, openly licensed stock images and audio—and now it&#8217;s directly integrated into the Editor."
-msgstr "La bibliothèque d’Openverse répertorie plus de 600 millions d’images et de fichiers audio gratuits en sous licence ouverte, et elle est désormais directement intégrée à l’éditeur."
+msgstr "La bibliothèque d’Openverse répertorie plus de 600 millions d’images et de fichiers audio gratuits sous licence ouverte, et elle est désormais directement intégrée à l’éditeur."
 
 #: wp-admin/about.php:129
 msgid "Explore Openverse media right from the Editor"
@@ -286,7 +286,7 @@ msgstr "Gérez votre menu de plusieurs manières avec le bloc de navigation"
 
 #: wp-admin/about.php:77
 msgid "An updated interface gives you more control over your site editing experience. Browse through full previews of your templates and template parts, then jump into editing your site from wherever you choose."
-msgstr "L’interface à été revue afin de vous donner plus de contrôle sur l’expérience d’édition de votre site. Vous trouverez une prévisualisation complète de vos modèles et éléments de modèles, et pourrez passer à l’éditeur de site depuis n’importe quel écran."
+msgstr "L’interface a été revue afin de vous donner plus de contrôle sur l’expérience d’édition de votre site. Vous trouverez une prévisualisation complète de vos modèles et éléments de modèles, et pourrez passer à l’éditeur de site depuis n’importe quel écran."
 
 #: wp-admin/about.php:76
 msgid "Explore and edit your site from the Site Editor"
@@ -2927,7 +2927,7 @@ msgstr "<a href=\"https://fr.wordpress.org/support/article/users-screen/\">Docum
 
 #: wp-admin/user-edit.php:77
 msgid "<a href=\"https://wordpress.org/documentation/article/users-your-profile-screen/\">Documentation on User Profiles</a>"
-msgstr "<a href=\"https://fr.wordpress.org/support/article/users-your-profile-screen/\">Documentation sur ’écran Profil</a>"
+msgstr "<a href=\"https://fr.wordpress.org/support/article/users-your-profile-screen/\">Documentation sur l’écran Profil</a>"
 
 #: wp-admin/options-media.php:41
 msgid "<a href=\"https://wordpress.org/documentation/article/settings-media-screen/\">Documentation on Media Settings</a>"

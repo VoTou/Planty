@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Themes - Astra package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-01-19 14:40:44+0000\n"
+"PO-Revision-Date: 2023-04-03 20:34:04+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,6 +21,100 @@ msgstr "Astra est un thème rapide, beau et entièrement personnalisable, approp
 #, gp-priority: high
 msgid "Astra"
 msgstr "Astra"
+
+#: inc/theme-update/astra-update-functions.php:1103
+msgid "Apple Pay"
+msgstr "Apple Pay"
+
+#: inc/theme-update/astra-update-functions.php:1091
+msgid "Paypal"
+msgstr "Paypal"
+
+#: inc/customizer/configurations/typography/class-astra-single-typo-configs.php:73
+msgid "Social sharing options"
+msgstr "Options de partage social"
+
+#: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:217
+#: inc/modules/posts-structures/customizer/class-astra-posts-single-structures-configs.php:586
+msgid "Format"
+msgstr "Format"
+
+#: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:195
+#: inc/modules/posts-structures/customizer/class-astra-posts-single-structures-configs.php:565
+msgid "Last Updated"
+msgstr "Dernière mise à jour"
+
+#: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:194
+#: inc/modules/posts-structures/customizer/class-astra-posts-single-structures-configs.php:564
+msgid "Published"
+msgstr "Publié"
+
+#: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:192
+#: inc/modules/posts-structures/customizer/class-astra-posts-single-structures-configs.php:562
+msgid "Type"
+msgstr "Type"
+
+#: inc/customizer/configurations/accessibility/class-astra-accessibility-configs.php:108
+msgid "Input Highlight Type"
+msgstr "Type de surlignement de saisie"
+
+#: inc/customizer/configurations/accessibility/class-astra-accessibility-configs.php:64
+#: inc/customizer/configurations/accessibility/class-astra-accessibility-configs.php:120
+msgid "Solid"
+msgstr "Trait"
+
+#: inc/customizer/configurations/accessibility/class-astra-accessibility-configs.php:60
+#: inc/customizer/configurations/accessibility/class-astra-accessibility-configs.php:116
+msgid "Dotted"
+msgstr "Pointillé"
+
+#: inc/customizer/configurations/accessibility/class-astra-accessibility-configs.php:56
+msgid "Global Highlight Type"
+msgstr "Type de soulignement global"
+
+#: inc/customizer/configurations/accessibility/class-astra-accessibility-configs.php:41
+msgid "Site Accessibility"
+msgstr "Accessibilité du site"
+
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:254
+msgid "Accessibility"
+msgstr "Accessibilité"
+
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-layout-configs.php:346
+msgid "Please publish the changes and see result on the frontend.<br />[Slide in cart requires Cart added inside Header Builder]"
+msgstr "Veuillez publier les modifications et consulter les résultats sur l’interface publique.<br />[Le panier glissant nécessite d’ajouter le panier dans le constructeur d’en-tête]"
+
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-layout-configs.php:316
+msgid "Add To Cart Action"
+msgstr "Action d’ajout au panier"
+
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-layout-configs.php:44
+msgid "Redirect To Checkout Page"
+msgstr "Redirection vers la page Commande"
+
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-layout-configs.php:43
+msgid "Redirect To Cart Page"
+msgstr "Redirection vers la page Panier"
+
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:936
+#: inc/theme-update/astra-update-functions.php:1079
+msgid "Discover"
+msgstr "Discover"
+
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:928
+#: inc/theme-update/astra-update-functions.php:1067
+msgid "Amex"
+msgstr "Amex"
+
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:920
+#: inc/theme-update/astra-update-functions.php:1055
+msgid "Mastercard"
+msgstr "Mastercard"
+
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:912
+#: inc/theme-update/astra-update-functions.php:1043
+msgid "Visa"
+msgstr "Visa"
 
 #: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:45
 #: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:51
@@ -873,6 +967,10 @@ msgstr "Promo !"
 msgid "Slide in Cart Width"
 msgstr "Largeur du panier glissant"
 
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-layout-configs.php:325
+msgid "Slide In Cart"
+msgstr "Panier glissant"
+
 #: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:186
 msgid "Heading Font"
 msgstr "Police de titre"
@@ -973,11 +1071,11 @@ msgstr "Menu 2"
 msgid "Select Menu"
 msgstr "Sélectionner un menu"
 
-#: inc/compatibility/woocommerce/class-astra-woocommerce.php:3360
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:3368
 msgid "Continue Shopping"
 msgstr "Continuer les achats"
 
-#: inc/compatibility/woocommerce/class-astra-woocommerce.php:3356
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:3364
 msgid "No products in the cart."
 msgstr "Aucun article dans le panier."
 
@@ -2071,6 +2169,10 @@ msgstr "Type de couleur"
 #: inc/customizer/configurations/builder/header/class-astra-header-search-component-configs.php:93
 msgid "Icon Size"
 msgstr "Taille d’icône"
+
+#: inc/customizer/configurations/builder/base/class-astra-social-icon-component-configs.php:349
+msgid "Icon Background Space"
+msgstr "Espacement d’arrière-plan des icônes"
 
 #: inc/customizer/configurations/builder/base/class-astra-social-icon-component-configs.php:325
 msgid "Icon Spacing"
@@ -3958,7 +4060,7 @@ msgid "WooCommerce"
 msgstr "WooCommerce"
 
 #: inc/compatibility/edd/class-astra-edd.php:445
-#: inc/compatibility/woocommerce/class-astra-woocommerce.php:3291
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:3292
 msgid "View your shopping cart"
 msgstr "Voir votre panier"
 
@@ -4879,7 +4981,7 @@ msgstr "Saisissez une adresse de messagerie valide !"
 
 #: admin/includes/class-astra-menu.php:165
 #: admin/includes/class-astra-menu.php:166
-#: inc/compatibility/woocommerce/class-astra-woocommerce.php:3440
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:3448
 #: admin/assets/build/dashboard-app.js:1
 msgid "Customize"
 msgstr "Personnaliser"

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap');
+/* Import de la font Syne depuis Google Fonts et on l'applique sur tous les éléments de la page */
+body * {
+    font-family: 'Syne', sans-serif;
+}
+
+/* On applique la couleur noir sur les paragraphes */
+p {
+    color: #000000;
+}
+
+/* HEADER */
+
+#ast-desktop-header .ast-container {
+    padding-left: 30px;
+    padding-right: 0;
+    max-width: 100%;
+}
+
+/* LIENS DU MENU */ 
+#ast-desktop-header li.menu-item a {
+    color: #000000;
+    display: inline-block;
+    text-align: center;
+    padding: 0 60px 0 0;
+}
+
+#ast-desktop-header li.menu-item:last-child a {
+    color: white;
+    background: #DC9F96;
+    padding: 0 60px;
+}
+
+#ast-desktop-header li.menu-item:last-child a:hover {
+    color: white;
+    background: #C02E44;
+}
+
+
+/* FORMULAIRE */
+
+.wpforms-container #wpforms-form-220 input, #wpforms-form-220 textarea {
+    border: none;
+}
+
+.wpforms-required-label {
+    display: none;
+}
+
+.wpforms-container input#wpforms-220-field_0, input#wpforms-220-field_1 {
+    max-width: 100%;
+    height: 60px;
+    border-radius: 7px;
+}
+
+#wpforms-form-220 textarea {
+    height: 235px;
+    resize: none;
+}
+
+.wpforms-container #wpforms-submit-220 {
+    color: white;
+    background: #DC9F96;
+    font-size: 15px;
+    font-weight: 400;
+    height: 55px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.wpforms-container #wpforms-submit-220:hover {
+    background: #C02E44;
+}
+
+.wpforms-submit-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+}
+
+.wpforms-container #wpforms-form-220 .wpforms-submit-container {
+    padding-top: 0;
+}
+
+.form_width {
+    width: 250px;
+}
+
+
+/* FOOTER */
+#colophon li.menu-item a:hover
+{
+    color: #3B8E46;
+}
