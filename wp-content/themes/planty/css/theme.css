@@ -87,13 +87,63 @@ p {
     width: 250px;
 }
 
-
-
-/* FOOTER */
-#colophon li.menu-item a:hover
-{
-    color: #3B8E46;
+#post-31 {
+    background-color: #3B8E46;
 }
+
+
+/* Contact Form Commande */
+
+
+#section_commande img {
+    margin-bottom: 15px;
+}
+
+#section_commande p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#section_commande p .wpcf7-form-control-wrap{
+    width: 40%;
+}
+
+#section_commande p .wpcf7-validates-as-number {
+    height: 75px;
+    border-radius: 5px;
+    font-size: 30px;
+    color: #000000;
+}
+
+#section_commande .btn_nombre {
+    display: flex;
+    flex-direction: column;
+}
+
+#section_commande input[type="text"] {
+    height: 32.5px;
+    width: 34%;
+    margin: 0;
+}
+
+#section_commande .wpcf7-submit {
+    height: 75px;
+    width: 55%;
+    border-radius: 5px;
+    background: #DC9F96;
+    color: #FFF;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#section_commande .wpcf7-submit:hover {
+    background-color: #C02E44;
+}
+
+
 
 
 /* Formulaire Commande */
@@ -105,7 +155,7 @@ p {
 }
 
 #wpforms-form-324 .wpforms-field {
-    width: 50% !important;
+    width: 50%;
     margin: 0;
 }
 
@@ -115,33 +165,32 @@ p {
     border-radius: 7px;
 }
 
-.vertical-line {
-    border-left: 1px solid #FFF;
-    height: 430px;
+@media screen and (max-width:700px){
+    #wpforms-form-324 .wpforms-field {
+        width: 100%;
+        margin: 0;
+    }
+    #wpforms-324 #wpforms-form-324 input {
+        max-width: 100%;
+    }
+    
   }
 
-.conteneur_canette .elementor-container {
-    display: flex;
-    max-width: 700px;
-    height: 500px;
-    margin: 0 auto;
+.vertical-line {
+    border-left: 1px solid #FFF;
+    height: 400px;
+  }
+
+
+/* FOOTER */
+#colophon li.menu-item a:hover
+{
+    color: #C02E44;
 }
 
-.feuille_1 img {
-    position: absolute;
-    right: -50px;
-    z-index: 1;
-}
 
-.feuille_2 img {
-    position: absolute;
-    left: -50px;
-    z-index: 1;
+/* Mobile */
+  
+#ast-mobile-header .menu-toggle {
+    background: #DC9F96;
 }
-
-.canette img {
-    height: 700px !important;
-    width: auto !important;
-    z-index: 2;
-}
-
