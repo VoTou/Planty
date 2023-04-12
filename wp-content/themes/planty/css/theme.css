@@ -58,17 +58,17 @@ p {
     resize: none;
 }
 
-.wpforms-container #wpforms-submit-220 {
+.wpforms-container #wpforms-submit-220, #wpforms-submit-324 {
     color: white;
     background: #DC9F96;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 400;
     height: 55px;
     width: 200px;
     border-radius: 5px;
 }
 
-.wpforms-container #wpforms-submit-220:hover {
+.wpforms-container #wpforms-submit-220:hover, #wpforms-submit-324:hover {
     background: #C02E44;
 }
 
@@ -88,8 +88,60 @@ p {
 }
 
 
+
 /* FOOTER */
 #colophon li.menu-item a:hover
 {
     color: #3B8E46;
 }
+
+
+/* Formulaire Commande */
+
+#wpforms-form-324 .wpforms-field-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#wpforms-form-324 .wpforms-field {
+    width: 50% !important;
+    margin: 0;
+}
+
+#wpforms-324 #wpforms-form-324 input {
+    max-width: 90%;
+    height: 60px;
+    border-radius: 7px;
+}
+
+.vertical-line {
+    border-left: 1px solid #FFF;
+    height: 430px;
+  }
+
+.conteneur_canette .elementor-container {
+    display: flex;
+    max-width: 700px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.feuille_1 img {
+    position: absolute;
+    right: -50px;
+    z-index: 1;
+}
+
+.feuille_2 img {
+    position: absolute;
+    left: -50px;
+    z-index: 1;
+}
+
+.canette img {
+    height: 700px !important;
+    width: auto !important;
+    z-index: 2;
+}
+
