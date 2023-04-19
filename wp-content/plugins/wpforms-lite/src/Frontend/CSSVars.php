@@ -248,13 +248,10 @@ class CSSVars {
 	 * Output root CSS variables.
 	 *
 	 * @since 1.8.1
-	 * @since 1.8.1.2 Added $force argument.
-	 *
-	 * @param bool $force Force output root variables.
 	 */
-	public function output_root( $force = false ) {
+	public function output_root() {
 
-		if ( ! empty( $this->is_root_vars_displayed ) && empty( $force ) ) {
+		if ( ! empty( $this->is_root_vars_displayed ) ) {
 			return;
 		}
 
