@@ -18,26 +18,17 @@ p {
 }
 
 /* LIENS DU MENU */ 
-#menu-item-39 a {
+#ast-desktop-header li.menu-item a {
     color: #000000;
     display: inline-block;
     text-align: center;
     padding: 0 60px 0 0;
-    font-size: 16px;
-    font-weight: 400;
-}
-
-#menu-item-39 a:hover {
-    font-size: 13px;
-    font-weight: 700;
 }
 
 #ast-desktop-header li.menu-item:last-child a {
     color: white;
     background: #DC9F96;
     padding: 0 60px;
-    font-size: 16px;
-    font-weight: 700;
 }
 
 #ast-desktop-header li.menu-item:last-child a:hover {
@@ -47,6 +38,7 @@ p {
 
 
 /* FORMULAIRE */
+
 .wpforms-container #wpforms-form-220 input, #wpforms-form-220 textarea {
     border: none;
 }
@@ -95,135 +87,66 @@ p {
     width: 250px;
 }
 
-
-
-/* Formulaire commande fruit */
-@media screen and (max-width:1030px){
-#section_commande .column_fruit {
-    margin: 0 auto;
-    max-width: 300px;
-}}
-
-.image-text-container {
-    position: relative;
-    width: 100%;
-  }
-  
-  .image-text-container img {
-    display: block;
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-  }
-  
-  .image-text-container .text {
-    position: absolute;
-    z-index: 3;
-    text-transform: uppercase;
-    font-weight: 800;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 23px;
-    line-height: normal;
-  }
-
-  .product-count {
-    display: flex;
-    flex-wrap: wrap;
-    height: 57px;
-    width: 43%;
-  }
-
-  .flex_plus_moins {
-    display: flex;
-    flex-direction: column;
-    width: 33%;
-  }
-
-  .form_ok {
-    display: flex;
-    justify-content: space-between;
-  }
-
-
-.btn_submit {
-    padding: 0;
-    background-color: #E0B9B4;
-   width: 52%;
-   height: 66px;
-   border-radius: 7px;
-   font-size: 18px;
-   font-weight: 400;
-   color:white;
-   margin-left: 15px;
+#post-31 {
+    background-color: #3B8E46;
 }
 
-.btn_submit:hover {
-    background-color: #C02E44;
-    color: white;
-}
 
-.btn_submit:focus {
-    background-color: #E0B9B4;
-    color: white;
-}
+/* Contact Form Commande */
 
-/* Bouton Quantité */
 
-input::-webkit-inner-spin-button,
-input::-webkit-outer-spin-button { 
-	-webkit-appearance: none;
-	margin:0;
-}
-
-#section_commande .in_number {
-    color: black;
-        width: 66%;
-        height:66px;
-        text-align:center;
-        border-style: none;
-        border-radius: 10px 0 0 10px;
-        line-height: 19.36px;
-        font-weight: 400;
+#section_commande img {
+    margin-bottom: 15px;
 }
 
 #section_commande p {
-    margin-bottom: 0;
-}
-
-.btn_plus, .btn_moins {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    width:36px;
-    height:33px;
-    border-style: none;
-    background-color: #DC9F96;
-    font-weight: 600;
-    color:white;
-    text-align: center;
-    vertical-align: middle;
-    cursor: pointer;
-  }
-
-.btn_moins {
-    border-bottom-right-radius: 10px ;
-    border-top : solid white 0.5px;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.btn_plus {
-    border-top-right-radius: 10px ;
-  }
+#section_commande p .wpcf7-form-control-wrap{
+    width: 40%;
+}
+
+#section_commande p .wpcf7-validates-as-number {
+    height: 75px;
+    border-radius: 5px;
+    font-size: 30px;
+    color: #000000;
+}
+
+#section_commande .btn_nombre {
+    display: flex;
+    flex-direction: column;
+}
+
+#section_commande input[type="text"] {
+    height: 32.5px;
+    width: 34%;
+    margin: 0;
+}
+
+#section_commande .wpcf7-submit {
+    height: 75px;
+    width: 55%;
+    border-radius: 5px;
+    background: #DC9F96;
+    color: #FFF;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#section_commande .wpcf7-submit:hover {
+    background-color: #C02E44;
+}
+
+
 
 
 /* Formulaire Commande */
-
-#wpforms-form-324 .wpforms-field-label {
-    color: #FFF;
-}
 
 #wpforms-form-324 .wpforms-field-container {
     display: flex;
@@ -255,7 +178,7 @@ input::-webkit-outer-spin-button {
 
 .vertical-line {
     border-left: 1px solid #FFF;
-    height: 425px;
+    height: 400px;
   }
 
 
