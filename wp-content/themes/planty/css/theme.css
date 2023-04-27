@@ -60,13 +60,10 @@ p {
   font-weight: 700;
 }
 
-#menu-item-628 {
+#menu-item-628, #menu-item-629, #menu-item-630, #menu-item-631 {
   display: none;
 }
 
-#menu-item-629 {
-  display: none;
-}
 
 @media (max-width: 921px) {
   #ast-hf-mobile-menu .menu-item-628,
