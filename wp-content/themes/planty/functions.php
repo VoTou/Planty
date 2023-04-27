@@ -13,7 +13,7 @@ wp_enqueue_style('theme-style', get_stylesheet_directory_uri() . '/css/theme.css
 // Ajout du menu admin
 add_filter( 'wp_nav_menu_items', 'ajout_admin_menu', 10, 2 );
 function ajout_admin_menu( $items, $args ) {
-    if (is_super_admin() && $args->theme_location == 'primary' || is_super_admin() && $args->theme_location == 'mobile_menu' ) {
+    if (is_user_logged_in() && $args->theme_location == 'primary' || is_user_logged_in() && $args->theme_location == 'mobile_menu' ) {
         $items .= '
                 <li id="menu-item-39" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39">
                     <a href="http://localhost/planty/nous-rencontrer/" class="menu-link">Nous rencontrer</a>
