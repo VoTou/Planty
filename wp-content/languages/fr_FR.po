@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.2.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-19 20:53:45+0000\n"
+"PO-Revision-Date: 2023-04-27 07:29:53+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -464,19 +464,19 @@ msgstr "Veuillez vérifier que l’extension PHP %s est installée et activée."
 msgid "When using the %1$s constant, make sure to set these globals to an array: %2$s."
 msgstr "À l‘utilisation de la constante %1$s, s‘assurer de définir ces valeurs globales dans un tableau : %2$s."
 
-#: wp-includes/html-api/class-wp-html-tag-processor.php:2136
+#: wp-includes/html-api/class-wp-html-tag-processor.php:2193
 msgid "The query argument must be an array or a tag name."
 msgstr "L‘argument de la requête doit être un tableau ou une balise."
 
-#: wp-includes/html-api/class-wp-html-tag-processor.php:1825
+#: wp-includes/html-api/class-wp-html-tag-processor.php:1882
 msgid "Invalid attribute name."
 msgstr "Nom d’attribut invalide."
 
-#: wp-includes/html-api/class-wp-html-tag-processor.php:1497
+#: wp-includes/html-api/class-wp-html-tag-processor.php:1553
 msgid "Too many calls to seek() - this can lead to performance issues."
 msgstr "Trop d’appels à la fonction seek(). Cela peut conduire à des problèmes de performances."
 
-#: wp-includes/html-api/class-wp-html-tag-processor.php:1488
+#: wp-includes/html-api/class-wp-html-tag-processor.php:1544
 msgid "Unknown bookmark name."
 msgstr "Nom de marque-page inconnu."
 
@@ -1614,7 +1614,7 @@ msgstr "La description n’est pas visible par défaut ; cependant, certains th
 
 #: wp-includes/class-wp-taxonomy.php:608
 msgid "Assign a parent term to create a hierarchy. The term Jazz, for example, would be the parent of Bebop and Big Band."
-msgstr "Assignez un terme parent pour créer une hiérarchie. Le terme Jazz, par exemple, seraient le parent de Bebop et Big Band."
+msgstr "Assignez un terme parent pour créer une hiérarchie. Le terme Jazz, par exemple, serait le parent de Bebop et Big Band."
 
 #: wp-includes/class-wp-taxonomy.php:607
 msgid "The &#8220;slug&#8221; is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens."
